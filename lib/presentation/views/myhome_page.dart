@@ -6,7 +6,7 @@ import '../controllers/counter_controller.dart';
 class MyHomePage extends StatelessWidget {
   final String title;
   final CounterController controller = Get.put(CounterController());
-  MyHomePage({required this.title});
+  MyHomePage({super.key, required this.title});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

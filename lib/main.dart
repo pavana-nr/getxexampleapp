@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import 'package:getxexampleapp/presentation/controllers/counter_controller.dart';
-
 import 'presentation/views/myhome_page.dart';
 
 void main() {
